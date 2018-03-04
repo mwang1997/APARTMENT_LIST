@@ -17,6 +17,8 @@ public class main{
 		//DictionaryHandler to check
 		DictionaryHandler dh = new DictionaryHandler(fn);
 		
+		System.out.println(dh.getDictionary().values().size());
+		
 		//Write a graph for n time searching next time
 		dh.writeGraph();
 		
